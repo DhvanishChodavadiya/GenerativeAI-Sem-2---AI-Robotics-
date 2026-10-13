@@ -1,0 +1,82 @@
+
+# Python cache files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+venv/
+.venv/
+env/
+ENV/
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Distribution and packaging
+build/
+dist/
+*.egg-info/
+.eggs/
+wheels/
+pip-wheel-metadata/
+
+# Testing and coverage
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+.nox/
+
+# Type checking and linting
+.mypy_cache/
+.pyright/
+.ruff_cache/
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# IDEs and editors
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Operating system files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Logs and temporary files
+*.log
+tmp/
+temp/
+
+# Machine learning artifacts
+*.pkl
+*.pickle
+*.joblib
+*.h5
+*.hdf5
+*.onnx
+
+# PyTorch model checkpoints
+*.pt
+*.pth
+checkpoints/
+
+# Data science datasets and generated data
+data/raw/
+data/processed/
+datasets/
+
+# Model outputs
+outputs/
+runs/
+wandb/
+
+# Python build tools
+poetry.lock.bak
